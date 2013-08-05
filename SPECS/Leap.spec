@@ -10,7 +10,7 @@
 
 Summary: Leap Motion re-packaging.
 Name: Leap
-Release: x86.5300.f19
+Release: x64.5300.f19
 Version: 0.8.0
 License: LeapMotion
 Group: System Environment/Daemon
@@ -18,7 +18,7 @@ URL: http://www.leapmotion.com/
 Source0: %{name}
 BuildRoot: %{_topdir}/%{name}-root
 
-%define _leap_release_arch x86
+%define _leap_release_arch x64
 
 %description
 Leap Motion RPM package.
